@@ -23,7 +23,8 @@ def draw_circle(radius):
 
 N_angles = int(input("введите количество углов многоугольника: "))
 Radius = int(input("Введите радиус: "))
-turtle.speed(3)
+Speed = int(input("Введите скорость: "))
+turtle.speed(Speed)
 turtle.color("black")
 
 Sides = 360/N_angles

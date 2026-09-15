@@ -28,7 +28,7 @@ def draw_triangle():
 
         for _ in range(3):
             t.forward(200)
-            draw_circles()
+            # draw_circles()
             t.left(sides)
 
 def draw_square():
@@ -39,7 +39,7 @@ def draw_square():
         
         for _ in range(4):
                 t.forward(200)
-                draw_circles()
+                # draw_circles()
                 t.left(sides)
 
 def draw_circle():
